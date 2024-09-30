@@ -1,0 +1,6 @@
+@paric_solution_HostAddress = http://localhost:5153
+
+GET {{paric_solution_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

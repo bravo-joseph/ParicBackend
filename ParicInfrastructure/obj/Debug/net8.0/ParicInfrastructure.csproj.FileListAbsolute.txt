@@ -1,0 +1,17 @@
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.AssemblyInfo.cs
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicInfrastructure.deps.json
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicInfrastructure.dll
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicInfrastructure.pdb
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicApplication.dll
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicDomain.dll
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicApplication.pdb
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\bin\Debug\net8.0\ParicDomain.pdb
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInf.9028BCCB.Up2Date
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.dll
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\refint\ParicInfrastructure.dll
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.pdb
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ref\ParicInfrastructure.dll
