@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using Microsoft.AspNet.Identity;
 using ParicApplication.ParicServices.DTO.RequestsDTO;
 using ParicApplication.ParicServices.IParicServices;
 using ParicDomain.Entities;
 using ParicDomain.IRepository;
-using System.Net;
 
 namespace ParicApplication.ParicServices
 {
@@ -23,7 +21,6 @@ namespace ParicApplication.ParicServices
 			var updatedResults = results.Select(req => _mapper.Map<RequestDTO>(results));
 			return updatedResults;
 		}
-
 		public async Task<IEnumerable<RequestDTO>> GetMyRequests(SystemUser? user)
 		{
 			if (user == null)
@@ -34,16 +31,27 @@ namespace ParicApplication.ParicServices
 			var updatedResults = results.Select(req => _mapper.Map<RequestDTO>(results));
 			return updatedResults;
 		}
-
 		public async Task<RequestDTO?> RaiseRequests(SystemUser? user, RequestDTO createRequestDto)
 		{					
 			if (user == null)
 			{
 				return null;
 			}
-			var requestModel = _mapper.Map<Requests>(createRequestDto);
-			requestModel.RequesterId = user.Id;
-			await _requestRepository.CreateRequests(requestModel);
+
+			//var requestModel = _mapper.Map<Requests>(createRequestDto);
+			Requests reqModel = new Requests
+			{
+				Caption = createRequestDto.Caption,
+				Currency = createRequestDto.Currency,
+				Reason = createRequestDto.Reason,
+				NeededDate = createRequestDto.NeededDate,
+				RequestTypeId = createRequestDto.RequestTypeId
+			};
+
+			reqModel.RequesterId = user.Id;
+
+			await _requestRepository.CreateRequests(reqModel);
+
 			return createRequestDto;
 		}
 

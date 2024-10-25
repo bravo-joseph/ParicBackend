@@ -278,3 +278,4 @@ C:\Users\USER\source\repos\paric solution\paric solution\obj\Debug\net8.0\refint
 C:\Users\USER\source\repos\paric solution\paric solution\obj\Debug\net8.0\ParicPresentation.pdb
 C:\Users\USER\source\repos\paric solution\paric solution\obj\Debug\net8.0\ParicPresentation.genruntimeconfig.cache
 C:\Users\USER\source\repos\paric solution\paric solution\obj\Debug\net8.0\ref\ParicPresentation.dll
+C:\Users\USER\source\repos\paric solution\paric solution\obj\Debug\net8.0\ParicPresentation.sourcelink.json

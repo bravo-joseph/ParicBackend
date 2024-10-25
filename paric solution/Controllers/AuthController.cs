@@ -24,8 +24,7 @@ namespace paric_solution.Controllers
 			_signInManager = signInManager;
 			_accountService = accountService;			
         }
-        [HttpPost("register")]
-		[Authorize]
+        [HttpPost("register")]		
 		public async Task<IActionResult> RegisterAccount([FromBody] RegisterDTO registerrequestdto)
 		{
 			SuccessResponse response = new();

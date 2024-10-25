@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParicPresentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+709946ed393e254bfd3dd4938c6ec58246337997")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParicPresentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParicPresentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

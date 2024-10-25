@@ -8,10 +8,11 @@ namespace ParicApplication.Extensions
 	public static class ServiceExtensionCollection
 	{
 		public static void AddApplication(this IServiceCollection builder)
-		{			
+		{
+			var assembly = typeof(ServiceCollectionExtensions).Assembly;
 			builder.AddScoped<IDepartmentService, DepartmentService>();
 			builder.AddScoped<IRequestService, RequestService>();
-			builder.AddAutoMapper(typeof(MappingConfig));			
+			builder.AddAutoMapper(assembly);			
 		}
 	}
 }

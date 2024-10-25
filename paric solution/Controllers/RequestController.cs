@@ -53,7 +53,7 @@ namespace paric_solution.Controllers
 		public async Task<IActionResult> GetMyRequest([FromRoute] string userId)
 		{
 			var userEmail = User.GetUserEmail();
-			var user = await _userManager.FindByEmailAsync(userEmail);
+			var user = await _userManager.FindByEmailAsync(userEmail ?? "josephgabriel018@gmail.com");
 			var result = await _requestService.GetMyRequests(user);
 			if (result == null) {
 				NotFound(new { message = "User Not Found", status = HttpStatusCode.NotFound });

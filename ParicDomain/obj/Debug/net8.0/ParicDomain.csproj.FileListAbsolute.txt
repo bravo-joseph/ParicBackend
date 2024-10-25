@@ -10,3 +10,4 @@ C:\Users\USER\source\repos\paric solution\ParicDomain\obj\Debug\net8.0\ParicDoma
 C:\Users\USER\source\repos\paric solution\ParicDomain\obj\Debug\net8.0\refint\ParicDomain.dll
 C:\Users\USER\source\repos\paric solution\ParicDomain\obj\Debug\net8.0\ParicDomain.pdb
 C:\Users\USER\source\repos\paric solution\ParicDomain\obj\Debug\net8.0\ref\ParicDomain.dll
+C:\Users\USER\source\repos\paric solution\ParicDomain\obj\Debug\net8.0\ParicDomain.sourcelink.json

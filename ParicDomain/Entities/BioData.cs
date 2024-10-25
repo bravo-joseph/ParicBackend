@@ -4,7 +4,8 @@ namespace ParicDomain.Entities
 {
 	public class BioData
 	{
-		public int UserId { get; set; }
+		public int Id { get; set; }
+		public string UserId { get; set; }
 		[ForeignKey("UserId")]
 		public SystemUser User { get; set; }
 		public string Resume { get; set; }

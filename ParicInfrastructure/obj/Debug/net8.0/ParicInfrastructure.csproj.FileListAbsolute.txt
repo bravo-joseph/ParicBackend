@@ -15,3 +15,4 @@ C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\P
 C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\refint\ParicInfrastructure.dll
 C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.pdb
 C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ref\ParicInfrastructure.dll
+C:\Users\USER\source\repos\paric solution\ParicInfrastructure\obj\Debug\net8.0\ParicInfrastructure.sourcelink.json

@@ -15,7 +15,6 @@ namespace ParicInfrastructure.Extensions
 		{
 			builder.AddScoped<IDepartmentRepository, DepartmentRepository>();
 			builder.AddScoped<IRequestRepository, RequestRepository>();
-
 			builder.AddIdentity<SystemUser, IdentityRole>(options =>
 			{
 				options.Password.RequiredLength = 8;
@@ -27,6 +26,7 @@ namespace ParicInfrastructure.Extensions
 			builder.AddDbContext<ParicDbContext>(options =>
 			{				
 				options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+				options.EnableDetailedErrors(detailedErrorsEnabled: true);
 			});
 		}
 	}

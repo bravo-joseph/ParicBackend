@@ -13,3 +13,4 @@ C:\Users\USER\source\repos\paric solution\ParicApplication\obj\Debug\net8.0\Pari
 C:\Users\USER\source\repos\paric solution\ParicApplication\obj\Debug\net8.0\refint\ParicApplication.dll
 C:\Users\USER\source\repos\paric solution\ParicApplication\obj\Debug\net8.0\ParicApplication.pdb
 C:\Users\USER\source\repos\paric solution\ParicApplication\obj\Debug\net8.0\ref\ParicApplication.dll
+C:\Users\USER\source\repos\paric solution\ParicApplication\obj\Debug\net8.0\ParicApplication.sourcelink.json

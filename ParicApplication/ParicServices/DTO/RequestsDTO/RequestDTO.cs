@@ -7,5 +7,7 @@
 		public string Currency { get; set; } = string.Empty;
 		public DateTime NeededDate { get; set; }
 		public string Reason { get; set; } = string.Empty;
+		public List<Guid> InventoryItems { get; set; } = [];
+
 	}
 }

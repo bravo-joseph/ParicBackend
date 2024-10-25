@@ -12,6 +12,7 @@ namespace ParicApplication.Mapper
 			CreateMap<Department, CreateDepartmentDTO>().ReverseMap();
 			CreateMap<UpdateDepartmentDTO, Department>().ReverseMap();
 			CreateMap<RequestDTO, Requests>().ReverseMap();
+			CreateMap<Requests, RequestDTO>().ReverseMap();
 		}
     }
 }
